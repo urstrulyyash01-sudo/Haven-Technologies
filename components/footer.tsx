@@ -7,7 +7,10 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="font-bold text-lg tracking-tight">HAVEN TECHNOLOGIES</h3>
+            <h3 className="font-bold text-lg tracking-tight">
+              <span className="text-[#16a34a]">HAVEN</span>{' '}
+              <span className="text-[#2563eb]">TECHNOLOGIES</span>
+            </h3>
             <p className="text-sm opacity-85">
               30+ years of industrial leadership in water treatment and control systems. Trusted by global enterprises.
             </p>
