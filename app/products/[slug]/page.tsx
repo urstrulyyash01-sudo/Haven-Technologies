@@ -74,11 +74,6 @@ function SingleProductPage({ product }: { product: Product }) {
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
-                  <div className="absolute inset-0 flex items-center justify-center bg-muted/80">
-                    <span className="text-sm text-muted-foreground font-medium">
-                      Product Image
-                    </span>
-                  </div>
                 </div>
               </div>
 
@@ -222,11 +217,7 @@ function SubModelsPage({ product }: { product: Product }) {
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, 33vw"
                     />
-                    <div className="absolute inset-0 flex items-center justify-center bg-muted/80">
-                      <span className="text-sm text-muted-foreground font-medium">
-                        Product Image
-                      </span>
-                    </div>
+
                   </div>
                   <div className="p-6 space-y-3">
                     <h3 className="text-lg font-medium text-foreground group-hover:text-primary transition-colors">

@@ -75,11 +75,7 @@ export default async function SubModelDetail({
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
-                  <div className="absolute inset-0 flex items-center justify-center bg-muted/80">
-                    <span className="text-sm text-muted-foreground font-medium">
-                      Product Image
-                    </span>
-                  </div>
+
                 </div>
               </div>
 

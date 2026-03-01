@@ -42,11 +42,7 @@ export default function Products() {
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, 50vw"
                     />
-                    <div className="absolute inset-0 flex items-center justify-center bg-muted/80">
-                      <span className="text-sm text-muted-foreground font-medium">
-                        Product Image
-                      </span>
-                    </div>
+
                   </div>
                   <div className="p-6">
                     <h3 className="text-xl font-medium text-foreground mb-3 group-hover:text-primary transition-colors">
