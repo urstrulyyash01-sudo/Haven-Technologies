@@ -164,7 +164,7 @@ export const productsData: Product[] = [
         id: 'ro-panel-basic',
         name: 'RO Panel - Basic',
         slug: 'ro-panel-basic',
-        image: '/images/products/ro-panel-basic.png',
+        image: '/images/products/ro-panel-advanced.png',
         description:
           'Entry-level RO control panel designed for small to medium RO plants. Features essential monitoring and control capabilities with a compact footprint.',
         features: [
@@ -187,7 +187,7 @@ export const productsData: Product[] = [
       },
       {
         id: 'ro-panel-standard',
-        name: 'RO Panel - Standard',
+        name: 'RO Panel - LCD PRO',
         slug: 'ro-panel-standard',
         image: '/images/products/ro-panel-standard.png',
         description:
@@ -212,9 +212,9 @@ export const productsData: Product[] = [
       },
       {
         id: 'ro-panel-advanced',
-        name: 'RO Panel - Advanced',
+        name: 'RO Panel - LCD Advanced+',
         slug: 'ro-panel-advanced',
-        image: '/images/products/ro-panel-advanced.png',
+        image: '/images/products/ro-panel-basic.png',
         description:
           'Premium RO control panel with full SCADA integration for large-scale and industrial RO plants. Features VFD-driven pumps, remote monitoring, and predictive analytics.',
         features: [
@@ -284,7 +284,7 @@ export const productsData: Product[] = [
     subModels: [
       {
         id: 'contactor-panel-single',
-        name: 'Single Pump Starter Panel',
+        name: '1-1 Control Panel',
         slug: 'contactor-panel-single',
         image: '/images/products/contactor-panel-single.png',
         description:
@@ -309,7 +309,7 @@ export const productsData: Product[] = [
       },
       {
         id: 'contactor-panel-dual',
-        name: 'Dual Pump Alternating Panel',
+        name: '1-3 Control Panel',
         slug: 'contactor-panel-dual',
         image: '/images/products/contactor-panel-dual.png',
         description:
@@ -334,7 +334,7 @@ export const productsData: Product[] = [
       },
       {
         id: 'contactor-panel-multi',
-        name: 'Multi-Pump Control Panel',
+        name: '3-3 Control Panel',
         slug: 'contactor-panel-multi',
         image: '/images/products/contactor-panel-multi.png',
         description:
