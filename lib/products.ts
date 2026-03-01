@@ -124,7 +124,7 @@ export const productsData: Product[] = [
       'Intelligent control systems for reverse osmosis water treatment plants',
     description:
       'Advanced control and automation panels for RO systems with real-time diagnostics and remote monitoring. Ensures optimal RO plant performance with automated pressure control, flow management, and quality monitoring.',
-    image: '/images/products/ro-panels.jpg',
+    image: '/images/products/ro-panels.png',
     features: [
       'PLC-based automation system',
       'Real-time diagnostics and monitoring',
@@ -164,7 +164,7 @@ export const productsData: Product[] = [
         id: 'ro-panel-basic',
         name: 'RO Panel - Basic',
         slug: 'ro-panel-basic',
-        image: '/images/products/ro-panel-basic.jpg',
+        image: '/images/products/ro-panel-basic.png',
         description:
           'Entry-level RO control panel designed for small to medium RO plants. Features essential monitoring and control capabilities with a compact footprint.',
         features: [
@@ -189,7 +189,7 @@ export const productsData: Product[] = [
         id: 'ro-panel-standard',
         name: 'RO Panel - Standard',
         slug: 'ro-panel-standard',
-        image: '/images/products/ro-panel-standard.jpg',
+        image: '/images/products/ro-panel-standard.png',
         description:
           'Mid-range RO control panel with PLC-based automation for medium to large RO plants. Includes HMI touchscreen for intuitive operation and comprehensive diagnostics.',
         features: [
@@ -214,7 +214,7 @@ export const productsData: Product[] = [
         id: 'ro-panel-advanced',
         name: 'RO Panel - Advanced',
         slug: 'ro-panel-advanced',
-        image: '/images/products/ro-panel-advanced.jpg',
+        image: '/images/products/ro-panel-advanced.png',
         description:
           'Premium RO control panel with full SCADA integration for large-scale and industrial RO plants. Features VFD-driven pumps, remote monitoring, and predictive analytics.',
         features: [
