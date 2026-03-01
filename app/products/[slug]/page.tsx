@@ -1,9 +1,42 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import { productsData } from '@/lib/products';
 import type { Product } from '@/lib/products';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const product = productsData.find((p) => p.slug === slug);
+
+  if (!product) {
+    return { title: 'Product Not Found' };
+  }
+
+  return {
+    title: `${product.name} - Haven Technologies`,
+    description: product.description,
+    alternates: {
+      canonical: `https://haventechnologies.in/products/${slug}`,
+    },
+    openGraph: {
+      title: `${product.name} - Haven Technologies`,
+      description: product.description,
+      url: `https://haventechnologies.in/products/${slug}`,
+      images: [
+        {
+          url: product.image,
+          alt: product.name,
+        },
+      ],
+    },
+  };
+}
 
 export default async function ProductDetail({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

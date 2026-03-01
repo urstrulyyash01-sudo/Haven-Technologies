@@ -1,5 +1,21 @@
+import type { Metadata } from 'next';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
+
+export const metadata: Metadata = {
+  title: 'About Haven Technologies - 24+ Years of Water Treatment Expertise',
+  description:
+    'Learn about Haven Technologies, a trusted manufacturer of water treatment control panels and systems based in Hyderabad with over 24 years of industry experience.',
+  alternates: {
+    canonical: 'https://haventechnologies.in/about',
+  },
+  openGraph: {
+    title: 'About Haven Technologies - 24+ Years of Water Treatment Expertise',
+    description:
+      'Learn about Haven Technologies, a trusted manufacturer of water treatment control panels and systems based in Hyderabad with over 24 years of industry experience.',
+    url: 'https://haventechnologies.in/about',
+  },
+};
 
 export default function About() {
   return (

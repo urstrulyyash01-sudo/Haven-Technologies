@@ -1,8 +1,24 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import { productsData } from '@/lib/products';
+
+export const metadata: Metadata = {
+  title: 'Products - RO Control Panels, Smart Dosers & Water Vending Machines',
+  description:
+    'Browse Haven Technologies products: RO control panels, contactor-based control panels, smart doser sensors, and water vending machines for industrial water treatment.',
+  alternates: {
+    canonical: 'https://haventechnologies.in/products',
+  },
+  openGraph: {
+    title: 'Products - RO Control Panels, Smart Dosers & Water Vending Machines',
+    description:
+      'Browse Haven Technologies products: RO control panels, contactor-based control panels, smart doser sensors, and water vending machines for industrial water treatment.',
+    url: 'https://haventechnologies.in/products',
+  },
+};
 
 export default function Products() {
   return (

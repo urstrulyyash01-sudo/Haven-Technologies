@@ -1,8 +1,42 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import { productsData, getSubModelBySlug } from '@/lib/products';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string; model: string }>;
+}): Promise<Metadata> {
+  const { slug, model } = await params;
+  const product = productsData.find((p) => p.slug === slug);
+  const subModel = getSubModelBySlug(slug, model);
+
+  if (!product || !subModel) {
+    return { title: 'Model Not Found' };
+  }
+
+  return {
+    title: `${subModel.name} - ${product.name} | Haven Technologies`,
+    description: subModel.description,
+    alternates: {
+      canonical: `https://haventechnologies.in/products/${slug}/${model}`,
+    },
+    openGraph: {
+      title: `${subModel.name} - ${product.name} | Haven Technologies`,
+      description: subModel.description,
+      url: `https://haventechnologies.in/products/${slug}/${model}`,
+      images: [
+        {
+          url: subModel.image,
+          alt: subModel.name,
+        },
+      ],
+    },
+  };
+}
 
 export default async function SubModelDetail({
   params,
