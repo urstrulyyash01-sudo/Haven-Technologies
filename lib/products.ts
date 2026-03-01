@@ -36,7 +36,7 @@ export const productsData: Product[] = [
       'Advanced automatic dosing sensor system for chemical treatment optimization',
     description:
       'Intelligent dosing control system with real-time monitoring and automated chemical injection capabilities. The Smart Doser Sensor provides precision control over chemical dosing operations, ensuring optimal treatment efficiency and cost-effectiveness.',
-    image: '/images/products/smart-doser.jpg',
+    image: '/images/products/smart-doser.png',
     features: [
       'Automatic calibration system',
       'Real-time monitoring and analytics',
@@ -80,7 +80,7 @@ export const productsData: Product[] = [
       'Commercial water vending and distribution system for high-volume applications',
     description:
       'Complete water vending solution with integrated purification, dispensing, and payment processing capabilities. The system delivers clean, safe drinking water with minimal operational intervention.',
-    image: '/images/products/water-vending.jpg',
+    image: '/images/products/water-vending.png',
     features: [
       'High-capacity filtration system',
       'Digital payment integration (cash/card)',
