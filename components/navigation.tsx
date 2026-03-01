@@ -11,8 +11,9 @@ export function Navigation() {
       <div className="max-w-full px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 font-bold text-lg text-primary hover:opacity-80 transition-opacity">
-            <span className="tracking-tight">HAVEN</span>
+          <Link href="/" className="flex items-center gap-1 font-bold text-lg hover:opacity-80 transition-opacity">
+            <span className="tracking-tight text-[#16a34a]">HAVEN</span>
+            <span className="tracking-tight text-[#2563eb]">TECHNOLOGIES</span>
           </Link>
 
           {/* Desktop Menu */}
