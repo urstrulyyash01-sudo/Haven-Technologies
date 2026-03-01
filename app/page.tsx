@@ -2,9 +2,35 @@ import Link from 'next/link';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Haven Technologies',
+  url: 'https://haventechnologies.in',
+  description:
+    'Leading manufacturer of RO control panels, contactor-based control panels, smart doser sensors, and water vending machines in Hyderabad, India.',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Shiva Sai Recidency, M J Colony Street No. 5, Moula-ali',
+    addressLocality: 'Hyderabad',
+    addressRegion: 'Telangana',
+    postalCode: '500040',
+    addressCountry: 'IN',
+  },
+  telephone: '+919000702009',
+  email: 'havantechnologies99@gmail.com',
+  foundingDate: '2002',
+  numberOfEmployees: { '@type': 'QuantitativeValue', value: '50+' },
+  sameAs: [],
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Navigation />
 
       <main className="flex-1">
@@ -14,7 +40,7 @@ export default function Home() {
             <div className="max-w-3xl">
               <div className="space-y-6">
                 <h1 className="text-5xl lg:text-6xl font-normal text-foreground tracking-tight">
-                  Water Treatment Solutions for Modern Industries
+                  Modern Control Panels and Water Treatment Solutions for Industries
                 </h1>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Reliable, efficient water treatment systems and components engineered for industrial applications. From smart sensors to complete control solutions.

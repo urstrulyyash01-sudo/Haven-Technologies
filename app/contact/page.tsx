@@ -1,5 +1,21 @@
+import type { Metadata } from 'next';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
+
+export const metadata: Metadata = {
+  title: 'Contact Haven Technologies - Water Treatment Solutions Hyderabad',
+  description:
+    'Get in touch with Haven Technologies for RO control panels, water treatment solutions, and industrial control systems. Located in Moula-ali, Hyderabad, Telangana.',
+  alternates: {
+    canonical: 'https://haventechnologies.in/contact',
+  },
+  openGraph: {
+    title: 'Contact Haven Technologies - Water Treatment Solutions Hyderabad',
+    description:
+      'Get in touch with Haven Technologies for RO control panels, water treatment solutions, and industrial control systems.',
+    url: 'https://haventechnologies.in/contact',
+  },
+};
 
 export default function Contact() {
   return (
