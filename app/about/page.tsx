@@ -75,22 +75,14 @@ export default function About() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
             <div className="space-y-16">
               <h2 className="text-3xl font-normal text-foreground">By The Numbers</h2>
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-2xl">
                 <div className="space-y-2">
-                  <div className="text-4xl font-light text-primary">500+</div>
-                  <p className="text-muted-foreground">Installations Worldwide</p>
-                </div>
-                <div className="space-y-2">
-                  <div className="text-4xl font-light text-primary">30+</div>
+                  <div className="text-4xl font-light text-primary">24+</div>
                   <p className="text-muted-foreground">Years of Experience</p>
                 </div>
                 <div className="space-y-2">
                   <div className="text-4xl font-light text-primary">99.8%</div>
                   <p className="text-muted-foreground">Uptime Performance</p>
-                </div>
-                <div className="space-y-2">
-                  <div className="text-4xl font-light text-primary">50+</div>
-                  <p className="text-muted-foreground">Expert Engineers</p>
                 </div>
               </div>
             </div>
