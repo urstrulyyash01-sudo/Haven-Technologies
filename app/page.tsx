@@ -40,7 +40,7 @@ export default function Home() {
             <div className="max-w-3xl">
               <div className="space-y-6">
                 <h1 className="text-5xl lg:text-6xl font-normal text-foreground tracking-tight">
-                  Water Treatment Solutions for Modern Industries
+                  Modern Control Panels and Water Treatment Solutions for Industries
                 </h1>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Reliable, efficient water treatment systems and components engineered for industrial applications. From smart sensors to complete control solutions.
