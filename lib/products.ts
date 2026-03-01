@@ -246,7 +246,7 @@ export const productsData: Product[] = [
       'Robust electrical control panels for industrial equipment and pump management',
     description:
       'Heavy-duty control panels featuring contactor-based switching for reliable operation in demanding industrial environments. Designed for long-term durability with high-capacity electrical control capabilities.',
-    image: '/images/products/contactor-panels.jpg',
+    image: '/images/products/contactor-panels.png',
     features: [
       'High-capacity switching (up to 100A)',
       'Thermal overload protection',
@@ -286,7 +286,7 @@ export const productsData: Product[] = [
         id: 'contactor-panel-single',
         name: 'Single Pump Starter Panel',
         slug: 'contactor-panel-single',
-        image: '/images/products/contactor-panel-single.jpg',
+        image: '/images/products/contactor-panel-single.png',
         description:
           'Basic contactor-based starter panel for single motor/pump applications. Features DOL starting with thermal overload protection and essential safety interlocks.',
         features: [
@@ -311,7 +311,7 @@ export const productsData: Product[] = [
         id: 'contactor-panel-dual',
         name: 'Dual Pump Alternating Panel',
         slug: 'contactor-panel-dual',
-        image: '/images/products/contactor-panel-dual.jpg',
+        image: '/images/products/contactor-panel-dual.png',
         description:
           'Dual pump contactor panel with automatic alternation and lead-lag control. Ensures balanced pump usage and provides redundancy for continuous operation.',
         features: [
@@ -336,7 +336,7 @@ export const productsData: Product[] = [
         id: 'contactor-panel-multi',
         name: 'Multi-Pump Control Panel',
         slug: 'contactor-panel-multi',
-        image: '/images/products/contactor-panel-multi.jpg',
+        image: '/images/products/contactor-panel-multi.png',
         description:
           'Advanced multi-pump contactor panel for controlling up to 4 pumps with automatic sequencing, pressure-based control, and comprehensive fault management.',
         features: [
